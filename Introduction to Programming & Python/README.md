@@ -1,9 +1,9 @@
 # Introduction to Programming
 
-### What is Programming?
+## What is Programming?
 Programming is the process of giving instructions to a computer so it can perform specific tasks. These instructions are written in a programming language that the computer can interpret and execute.
 
-### Why Python?
+## Why Python?
 Python is a high-level, interpreted programming language that stands out for its simplicity and readability. It’s one of the most beginner-friendly languages, yet powerful enough to be used in advanced applications.
 
 **Python is widely used in many fields, including:**
@@ -14,3 +14,37 @@ Python is a high-level, interpreted programming language that stands out for its
 4. Game Development – Tools like Pygame allow developers to create interactive games.
 
 With its large community, extensive library support, and versatility, Python is an excellent starting point for anyone new to programming.
+
+
+# Installing Python and VS Code
+
+## Installing Python
+1. Download Python:
+
+- Visit the official Python website: python.org.
+Download the latest version for your operating system (Windows, macOS, or Linux).
+
+2. Install Python:
+
+- Run the installer and ensure you check the box to Add Python to PATH (important for running Python from the command line).
+
+3. Verify Installation:
+
+- Open a terminal or command prompt and type:
+``` python
+python --version
+```
+- This should display the installed Python version (e.g., Python 3.13.5).
+
+
+## Choosing an IDE
+
+**What is an IDE?**
+
+- An Integrated Development Environment (IDE) is a software application that provides tools for writing, testing, and debugging code.
+
+- Popular Python IDEs:
+1. VS Code: Lightweight, customizable, and supports extensions for Python. (We will 2. use this one as our primary IDE)
+2. PyCharm: Powerful IDE with advanced features for professional developers.
+3. Jupyter Notebook: Great for data science and interactive coding.
+4. IDLE: Comes pre-installed with Python; good for beginners.
