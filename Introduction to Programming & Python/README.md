@@ -43,7 +43,7 @@ python --version
 
 - An Integrated Development Environment (IDE) is a software application that provides tools for writing, testing, and debugging code.
 
-- Popular Python IDEs:
+**Popular Python IDEs:**
 1. VS Code: Lightweight, customizable, and supports extensions for Python. (We will 2. use this one as our primary IDE)
 2. PyCharm: Powerful IDE with advanced features for professional developers.
 3. Jupyter Notebook: Great for data science and interactive coding.
