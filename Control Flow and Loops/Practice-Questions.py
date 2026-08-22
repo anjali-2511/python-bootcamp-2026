@@ -5,8 +5,27 @@
 
 # 1. If-Else Conditional Statements:
 # 1. Write a program that asks the user for a number and prints whether it is positive, negative, or zero.
+num = int(input("Enter a num:"));
+if(num > 0):
+    print("Number is Positive")
+elif(num < 0):
+    print("Number is Negative")
+else :
+    print("Number is Zero")
+
 # 2. Create a program that checks if a person is eligible to vote (age >= 18).
+age = int(input("Enter a person Age: "));
+if(age >= 18):
+    print("Eligible to vote")
+else:
+    print("Not Eligible")
+
 # 3. Write a program that takes a number from the user and prints "Even" if it is even, otherwise "Odd".
+n = int(input("Enter a Number: "))
+if(n % 2 == 0):
+    print("Even ")
+else:
+    print("Odd")
 
 
 # 2. Match Case Statements:
