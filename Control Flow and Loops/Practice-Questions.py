@@ -30,20 +30,66 @@ else:
 
 # 2. Match Case Statements:
 # 1. Ask the user to enter a day number (1–7) and print the corresponding day of the week using match case.
+DayNo = int(input("Enter a Day Number: "))
+match DayNo:
+    case 1:
+        print("Monday")
+    case 2:
+        print("Tuesday")
+    case 3:
+        print("Wednesday")
+    case 4:
+        print("Thursday")
+    case 5:
+        print("Friday")
+    case 6:
+        print("Saturday")
+    case 7:
+        print("Sunday")
+    case _:
+        print("Invalid day number")
+      
 # 2. Write a program using match case that simulates a simple calculator.
-# 3. Ask the user for two numbers and an operation (+, -, *, /).
-# 4. Perform the operation using match case.
-
+# - Ask the user for two numbers and an operation (+, -, *, /).
+# - Perform the operation using match case.
+ 
+calculator = input("Enter a Operator: ")
+num1 = int(input("Enter a First Number: "))
+num2 = int(input("Enter a Second Number: "))
+match calculator:
+    case "+":
+        print(f"Addition: {num1 + num2}")
+    case "-":
+        print(f"Subtraction: {num1 - num2}")
+    case "*":
+        print(f"Multiplication: {num1 * num2}")
+    case "/":
+        print(f"Division:  {num1  / num2}")
+    case "":
+        print("Enter Valid Operator")
 
 # 3. For Loops:
 # 1. Print numbers from 1 to 10 using a for loop.
+for i in range (1, 11):
+    print(i)
+
 # 2. Print the multiplication table of a number (entered by user).
+table = int(input("Enter a Table: "))
+for t in range(1, 11):
+    print(t * table)
+
 # 3. Calculate the sum of all numbers from 1 to 100 using a for loop.
+sum = 0;
+for num in range(1, 101):
+    sum += num
+    print(sum)
+
 # 4. Print the following pattern using a for loop:
 # *
 # **
 # ***
 # ****
+
 
 
 # 4. While Loops:
