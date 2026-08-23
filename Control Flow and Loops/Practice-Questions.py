@@ -88,14 +88,26 @@ for num in range(1, 101):
 # *
 # **
 # ***
-# ****
+# **** 
+for i in range(1, 5):
+    print("*" * i)
+
+# 5. Use a for loop to print the following pattern:
+# 1
+# 22
+# 333
+# 4444
+# 55555
+ 
+# 6. Use a for loop to print the following pattern:
+# 1111111111111111111111111111111
 
 
-
-# 4. While Loops:
-# 1. Print numbers from 1 to 10 using a while loop.
-# 2. Write a program that keeps asking the user to enter a password until they enter the correct one.
-# 3. Use a while loop to reverse a given number (e.g., 123 → 321).
+# 4. While Loops: 
+# 1. Print numbers from 1 to 10 using a while loop. 
+# 2. Print the multiplication table of a number  (entered by user) using a while loop
+# 3. Write a program that keeps asking the user to enter a password until they enter the correct one.
+# 4. Use a while loop to reverse a given number (e.g., 123 → 321).
 
 
 # 5. Break, Continue, and Pass Statements:
