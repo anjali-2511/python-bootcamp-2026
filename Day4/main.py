@@ -82,9 +82,11 @@ def main():
             Multi()
         elif choice == "4":
             Div()
+        elif choice == "Exit":
+            Exit()
+            break
         atem -= 1
-    else:
-        Exit()
+     
         
     
 username = "Anjali"
